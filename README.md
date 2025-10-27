@@ -272,7 +272,7 @@
     </div>
 
     <footer>
-      Designed by Adarsh Agrawal | © 2025 All Rights Reserved
+      Designed by Nitish Agrawal | © 2025 All Rights Reserved
     </footer>
   </div>
 </body>
