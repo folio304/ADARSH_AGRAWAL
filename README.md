@@ -10,7 +10,7 @@
   <meta property="og:title" content="Adarsh Agrawal – CA Finalist">
   <meta property="og:description" content="CA Finalist with a strong interest in taxation, auditing, and business advisory.">
   <meta property="og:image" content="https://YOUR_GITHUB_USERNAME.github.io/YOUR_REPO_NAME/profile.jpg">
-  <meta name="theme-color" content="#b8860b">
+  <meta name="theme-color" content="#C0C0C0">
 
   <!-- Google Font -->
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
@@ -24,18 +24,19 @@
     body {
       margin: 0;
       font-family: 'Poppins', sans-serif;
-      background: linear-gradient(135deg, #fffdf5, #f6f1e7);
+      background: linear-gradient(135deg, #f2f2f2, #e9e9e9);
       color: #333;
     }
 
     .container {
-      max-width: 500px;
+      max-width: 520px;
       margin: 50px auto;
       background: #ffffff;
       border-radius: 20px;
-      box-shadow: 0 8px 25px rgba(0,0,0,0.08);
-      padding: 30px;
+      box-shadow: 0 8px 25px rgba(0,0,0,0.1);
+      padding: 35px;
       animation: fadeInUp 0.8s ease-out both;
+      border: 1px solid #dcdcdc;
     }
 
     .profile {
@@ -49,10 +50,9 @@
       height: 180px;
       border-radius: 50%;
       object-fit: cover;
-      border: 3px solid #d4af37;
-      box-shadow: 0 0 20px rgba(212, 175, 55, 0.4);
-      background-color: #fff;
-      background: #fff url('profile.jpg') center/cover no-repeat;
+      border: 3px solid transparent;
+      background: linear-gradient(145deg, #dcdcdc, #f7f7f7) border-box;
+      box-shadow: 0 0 25px rgba(160, 160, 160, 0.5);
     }
 
     h1 {
@@ -60,7 +60,7 @@
       font-size: 2rem;
       margin: 12px 0 4px;
       font-weight: 600;
-      color: #b8860b;
+      color: #2f2f2f; /* Charcoal */
     }
 
     p.subtitle {
@@ -81,9 +81,10 @@
       font-weight: 500;
       white-space: nowrap;
       overflow: hidden;
-      border-right: 2px solid #b8860b;
+      border-right: 2px solid #C0C0C0;
       width: 0;
       animation: typing 5s steps(60, end) forwards, blink 0.75s step-end infinite;
+      font-style: italic;
     }
 
     @keyframes typing {
@@ -96,23 +97,46 @@
     }
 
     hr {
-      width: 60%;
-      margin: 14px auto;
+      width: 65%;
+      margin: 18px auto;
       border: 0;
-      border-top: 2px solid #e6c34a;
+      border-top: 2px solid #C0C0C0;
     }
 
     .section {
-      margin-top: 28px;
+      margin-top: 30px;
       opacity: 0;
       transform: translateY(20px);
       animation: fadeInUp 1s ease forwards;
     }
 
+    h2 {
+      text-align: center;
+      color: #2f2f2f;
+      font-weight: 600;
+      letter-spacing: 0.5px;
+      position: relative;
+      margin-bottom: 12px;
+    }
+
+    h2::after {
+      content: "";
+      display: block;
+      width: 50px;
+      height: 3px;
+      margin: 6px auto 0;
+      border-radius: 3px;
+      background: linear-gradient(90deg, #dcdcdc, #b0b0b0, #f2f2f2);
+    }
+
     a {
-      color: #b8860b;
+      color: #505050;
       text-decoration: none;
       font-weight: 500;
+    }
+
+    a:hover {
+      text-decoration: underline;
     }
 
     .btn {
@@ -120,21 +144,23 @@
       padding: 10px 18px;
       text-decoration: none;
       color: #fff;
-      background: #b8860b;
+      background: linear-gradient(90deg, #b0b0b0, #c0c0c0, #a9a9a9);
       border-radius: 6px;
       font-size: 0.95rem;
       transition: all 0.3s ease;
       font-weight: 500;
+      box-shadow: 0 3px 10px rgba(150, 150, 150, 0.3);
     }
 
     .btn:hover {
-      background: #a0780a;
+      background: linear-gradient(90deg, #a9a9a9, #bfbfbf, #999);
       transform: scale(1.05);
+      box-shadow: 0 4px 14px rgba(130, 130, 130, 0.4);
     }
 
-    .btn-whatsapp { background: #25D366; }
-    .btn-instagram { background: #E1306C; }
-    .btn-share { background: #0F9D58; }
+    .btn-whatsapp { background: #25D366; box-shadow: 0 3px 10px rgba(37,211,102,0.4); }
+    .btn-instagram { background: #E1306C; box-shadow: 0 3px 10px rgba(225,48,108,0.4); }
+    .btn-share { background: #0F9D58; box-shadow: 0 3px 10px rgba(15,157,88,0.4); }
 
     .btn-container {
       display: flex;
@@ -158,14 +184,16 @@
       width: 100px;
       padding: 10px;
       border-radius: 10px;
-      background: #fffdf2;
-      box-shadow: 0 2px 8px rgba(0,0,0,0.05);
-      color: #b8860b;
-      transition: transform 0.2s ease;
+      background: linear-gradient(145deg, #f8f8f8, #e6e6e6);
+      box-shadow: 0 3px 10px rgba(0,0,0,0.05);
+      color: #2f2f2f;
+      font-weight: 500;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
     }
 
     .icon-box:hover {
-      transform: translateY(-5px);
+      transform: translateY(-6px);
+      box-shadow: 0 5px 15px rgba(0,0,0,0.1);
     }
 
     .qr-section {
@@ -177,15 +205,18 @@
       width: 160px;
       border-radius: 12px;
       margin-top: 10px;
-      box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+      box-shadow: 0 3px 12px rgba(0,0,0,0.1);
     }
 
     footer {
       text-align: center;
-      color: #777;
+      color: #555;
       font-size: 0.85rem;
-      margin-top: 32px;
+      margin-top: 35px;
+      padding-top: 10px;
+      border-top: 1px solid #d0d0d0;
     }
+
   </style>
 </head>
 <body>
@@ -201,7 +232,7 @@
 
     <div class="section">
       <h2>Contact</h2>
-      <p>
+      <p style="text-align:center;">
         📞 <a href="tel:+917327809032">+91 73278 09032</a><br>
         ✉️ <a href="mailto:vaadaandassociatesgst@gmail.com">vaadaandassociatesgst@gmail.com</a><br>
         🏠 Home: Balangir, Odisha<br>
@@ -241,7 +272,7 @@
     </div>
 
     <footer>
-      © 2025 Adarsh Agrawal | All Rights Reserved
+      Designed by Adarsh Agrawal | © 2025 All Rights Reserved
     </footer>
   </div>
 </body>
