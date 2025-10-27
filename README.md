@@ -168,7 +168,7 @@
 <body>
   <div class="container">
     <div class="profile">
-      <img src="profile.jpg" alt="Adarsh Agrawal">
+      <img src="PROFILE.JPG" alt="Adarsh Agrawal">
     </div>
 
     <h1>Adarsh Agrawal</h1>
