@@ -180,7 +180,7 @@
       <p>
         📞 <a href="tel:+917327809032">+91 73278 09032</a><br>
         ✉️ <a href="mailto:vaadaandassociatesgst@gmail.com">vaadaandassociatesgst@gmail.com</a><br>
-        📍 Balangir, Odisha
+        📍 Raipur, C.G.
       </p>
 
       <div class="btn-container">
@@ -195,6 +195,7 @@
       <p>
         I am a <strong>CA Finalist</strong> working at <strong>Vaada & Associates</strong>, where I specialize in taxation, auditing, and GST compliance.  
         I aim to assist individuals and businesses in achieving financial transparency, regulatory accuracy, and sustainable growth through professional and ethical advisory.
+"Vaada means Promise and When we promise, We Deliver On Time"
       </p>
       <p><strong>Birthdate:</strong> 12th June 2000</p>
     </div>
