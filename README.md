@@ -1,4 +1,3 @@
-
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
@@ -7,7 +6,7 @@
 
   <!-- Meta Info -->
   <link rel="icon" href="profile.jpg" type="image/jpeg">
-  <meta name="description" content="Adarsh Agrawal – CA Finalist at Vaada & Associates, specializing in taxation, GST, and auditing.">
+  <meta name="description" content="Adarsh Agrawal – CA Finalist specializing in taxation, GST, and auditing.">
   <meta property="og:title" content="Adarsh Agrawal – CA Finalist">
   <meta property="og:description" content="CA Finalist with a strong interest in taxation, auditing, and business advisory.">
   <meta property="og:image" content="https://YOUR_GITHUB_USERNAME.github.io/YOUR_REPO_NAME/profile.jpg">
@@ -70,6 +69,30 @@
       margin-top: 0;
       font-weight: 500;
       font-size: 1.05rem;
+    }
+
+    /* Typewriter Tagline */
+    .tagline {
+      text-align: center;
+      font-size: 0.95rem;
+      color: #444;
+      margin-top: 8px;
+      height: 22px;
+      font-weight: 500;
+      white-space: nowrap;
+      overflow: hidden;
+      border-right: 2px solid #b8860b;
+      width: 0;
+      animation: typing 5s steps(60, end) forwards, blink 0.75s step-end infinite;
+    }
+
+    @keyframes typing {
+      from { width: 0; }
+      to { width: 100%; }
+    }
+
+    @keyframes blink {
+      50% { border-color: transparent; }
     }
 
     hr {
@@ -173,6 +196,7 @@
 
     <h1>Adarsh Agrawal</h1>
     <p class="subtitle">CA Finalist | Vaada & Associates</p>
+    <p class="tagline">Vaada means Promise and when we promise, we deliver on time.</p>
     <hr>
 
     <div class="section">
@@ -180,7 +204,8 @@
       <p>
         📞 <a href="tel:+917327809032">+91 73278 09032</a><br>
         ✉️ <a href="mailto:vaadaandassociatesgst@gmail.com">vaadaandassociatesgst@gmail.com</a><br>
-        📍 Raipur, C.G.
+        🏠 Home: Balangir, Odisha<br>
+        🏢 Office: Raipur, C.G.
       </p>
 
       <div class="btn-container">
@@ -195,7 +220,6 @@
       <p>
         I am a <strong>CA Finalist</strong> working at <strong>Vaada & Associates</strong>, where I specialize in taxation, auditing, and GST compliance.  
         I aim to assist individuals and businesses in achieving financial transparency, regulatory accuracy, and sustainable growth through professional and ethical advisory.
-
       </p>
       <p><strong>Birthdate:</strong> 12th June 2000</p>
     </div>
@@ -203,10 +227,10 @@
     <div class="section">
       <h2>Professional Services</h2>
       <div class="icon-services">
-        <div class="icon-box">📄   ITR Filing</div>
-        <div class="icon-box">💰   GST Returns</div>
-        <div class="icon-box">📊   Audit</div>
-        <div class="icon-box">🏢   Consultancy</div>
+        <div class="icon-box">📄 ITR Filing</div>
+        <div class="icon-box">💰 GST Returns</div>
+        <div class="icon-box">📊 Audit</div>
+        <div class="icon-box">🏢 Consultancy</div>
       </div>
     </div>
 
