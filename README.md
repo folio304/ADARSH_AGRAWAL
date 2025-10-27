@@ -1,11 +1,10 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Adarsh Agrawal – CA Finalist</title>
 
-  <link rel="icon" href="profile.jpg" type="image/jpeg">
+  <link rel="icon" href="PROFILE.JPG" type="image/jpeg">
   <meta name="description" content="Adarsh Agrawal – CA Finalist at Vaada & Associates, specializing in taxation, GST, and auditing.">
   <meta property="og:title" content="Adarsh Agrawal – CA Finalist">
   <meta property="og:description" content="CA Finalist with a strong interest in taxation, auditing, and business advisory.">
@@ -193,7 +192,7 @@
         I am a <strong>CA Finalist</strong> currently training with <strong>Vaada & Associates</strong>, where I focus on taxation, auditing, and GST compliance.  
         My professional goal is to provide accurate, ethical, and practical financial solutions that help clients maintain strong regulatory compliance and business growth.
       </p>
-      <p><strong>Birthday:</strong> 12th June 2000</p>
+      <p><strong>Birthdate:</strong> 12th June 2000</p>
     </div>
 
     <div class="section">
