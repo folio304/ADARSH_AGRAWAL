@@ -1,140 +1,123 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Adarsh Agrawal – CA Finalist</title>
 
-  <!-- Meta & Favicon -->
   <link rel="icon" href="profile.jpg" type="image/jpeg">
-  <meta name="description" content="Adarsh Agrawal – CA Finalist at Vaada and Associates. Specializing in taxation, GST, and auditing.">
+  <meta name="description" content="Adarsh Agrawal – CA Finalist at Vaada & Associates, specializing in taxation, GST, and auditing.">
   <meta property="og:title" content="Adarsh Agrawal – CA Finalist">
-  <meta property="og:image" content="https://YOUR-GITHUB-USERNAME.github.io/adarshagrawaldetails/profile.jpg">
-  <meta name="theme-color" content="#d4af37">
+  <meta property="og:description" content="CA Finalist with a strong interest in taxation, auditing, and business advisory.">
+  <meta property="og:image" content="https://YOUR_GITHUB_USERNAME.github.io/YOUR_REPO_NAME/profile.jpg">
+  <meta name="theme-color" content="#b8860b">
 
-  <!-- Google Font -->
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
 
   <style>
-    /* Background & Global Style */
-    body {
-      margin: 0;
-      font-family: 'Poppins', sans-serif;
-      background: linear-gradient(135deg, #0f0f0f, #1b1b1b);
-      color: #f8f8f8;
-      background-attachment: fixed;
-    }
-
-    .container {
-      max-width: 520px;
-      margin: 60px auto;
-      background: rgba(24, 24, 24, 0.95);
-      border-radius: 20px;
-      box-shadow: 0 0 25px rgba(212,175,55,0.25);
-      padding: 32px;
-      animation: fadeIn 1s ease-out both;
-    }
-
-    /* Animations */
-    @keyframes fadeIn {
-      from { opacity: 0; transform: translateY(30px); }
+    @keyframes fadeInUp {
+      from { opacity: 0; transform: translateY(20px); }
       to { opacity: 1; transform: translateY(0); }
     }
 
-    @keyframes float {
-      0%,100% { transform: translateY(0); }
-      50% { transform: translateY(-8px); }
+    body {
+      margin: 0;
+      font-family: 'Poppins', sans-serif;
+      background: linear-gradient(135deg, #fffdf5, #f6f1e7);
+      color: #333;
+    }
+
+    .container {
+      max-width: 500px;
+      margin: 50px auto;
+      background: #ffffff;
+      border-radius: 20px;
+      box-shadow: 0 8px 25px rgba(0,0,0,0.08);
+      padding: 30px;
+      animation: fadeInUp 0.8s ease-out both;
     }
 
     .profile {
       display: flex;
       justify-content: center;
-      margin-bottom: 18px;
-      animation: float 4s ease-in-out infinite;
+      margin-bottom: 16px;
     }
 
     .profile img {
       width: 180px;
       height: 180px;
       border-radius: 50%;
-      border: 3px solid #d4af37;
       object-fit: cover;
-      box-shadow: 0 0 20px rgba(212,175,55,0.4);
+      border: 3px solid #d4af37;
+      box-shadow: 0 0 20px rgba(212, 175, 55, 0.4);
+      background-color: #fff;
     }
 
     h1 {
       text-align: center;
       font-size: 2rem;
-      margin: 10px 0 4px;
-      color: #d4af37;
-      letter-spacing: 1px;
+      margin: 12px 0 4px;
+      font-weight: 600;
+      color: #b8860b;
     }
 
     p.subtitle {
       text-align: center;
-      color: #cfcfcf;
-      margin: 0;
+      color: #666;
+      margin-top: 0;
       font-weight: 500;
-      font-size: 1rem;
+      font-size: 1.05rem;
     }
 
     hr {
-      width: 50%;
-      margin: 20px auto;
+      width: 60%;
+      margin: 14px auto;
       border: 0;
-      border-top: 1px solid rgba(212,175,55,0.4);
-    }
-
-    h2 {
-      color: #d4af37;
-      border-left: 4px solid #d4af37;
-      padding-left: 8px;
-      font-size: 1.2rem;
-    }
-
-    a {
-      color: #d4af37;
-      text-decoration: none;
-    }
-
-    a:hover {
-      text-decoration: underline;
+      border-top: 2px solid #e6c34a;
     }
 
     .section {
-      margin-top: 25px;
-      animation: fadeIn 1.5s ease both;
+      margin-top: 28px;
+      opacity: 0;
+      transform: translateY(20px);
+      animation: fadeInUp 1s ease forwards;
     }
 
-    /* Buttons */
-    .btn-container {
-      display: flex;
-      justify-content: center;
-      flex-wrap: wrap;
-      gap: 10px;
-      margin-top: 12px;
+    a {
+      color: #b8860b;
+      text-decoration: none;
+      font-weight: 500;
     }
 
     .btn {
-      padding: 10px 20px;
-      border-radius: 8px;
-      color: #000;
-      font-weight: 600;
+      display: inline-block;
+      padding: 10px 18px;
       text-decoration: none;
-      background: linear-gradient(135deg, #d4af37, #ffea94);
+      color: #fff;
+      background: #b8860b;
+      border-radius: 6px;
+      font-size: 0.95rem;
       transition: all 0.3s ease;
-      box-shadow: 0 4px 10px rgba(212,175,55,0.3);
+      font-weight: 500;
     }
 
     .btn:hover {
-      transform: translateY(-3px);
-      box-shadow: 0 6px 14px rgba(212,175,55,0.5);
+      background: #a0780a;
+      transform: scale(1.05);
     }
 
-    .btn-whatsapp { background: linear-gradient(135deg, #25D366, #60F389); color: #000; }
-    .btn-instagram { background: linear-gradient(135deg, #E1306C, #F77737); color: #fff; }
-    .btn-share { background: linear-gradient(135deg, #d4af37, #ffea94); color: #000; }
+    .btn-whatsapp { background: #25D366; }
+    .btn-instagram { background: #E1306C; }
+    .btn-share { background: #0F9D58; }
 
-    /* Services Section */
+    .btn-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 10px;
+      margin-top: 10px;
+    }
+
     .icon-services {
       display: flex;
       justify-content: space-around;
@@ -142,50 +125,47 @@
       text-align: center;
       font-size: 0.9rem;
       flex-wrap: wrap;
+      gap: 10px;
     }
 
     .icon-box {
       width: 100px;
       padding: 10px;
-      border-radius: 12px;
-      background: rgba(255,255,255,0.05);
-      border: 1px solid rgba(212,175,55,0.4);
-      transition: all 0.3s ease;
+      border-radius: 10px;
+      background: #fffdf2;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+      color: #b8860b;
+      transition: transform 0.2s ease;
     }
 
     .icon-box:hover {
-      background: rgba(212,175,55,0.15);
-      transform: translateY(-4px);
+      transform: translateY(-5px);
     }
 
-    /* QR Section */
     .qr-section {
       text-align: center;
-      margin-top: 32px;
+      margin-top: 28px;
     }
 
     .qr-section img {
       width: 160px;
       border-radius: 12px;
       margin-top: 10px;
-      box-shadow: 0 0 20px rgba(212,175,55,0.3);
+      box-shadow: 0 3px 10px rgba(0,0,0,0.1);
     }
 
     footer {
       text-align: center;
-      color: #aaa;
+      color: #777;
       font-size: 0.85rem;
-      margin-top: 30px;
+      margin-top: 32px;
     }
-
-    html { scroll-behavior: smooth; }
   </style>
 </head>
 <body>
   <div class="container">
-
     <div class="profile">
-     <img src="profile.jpg" alt="Profile Photo" class="profile-photo">
+      <img src="profile.jpg" alt="Adarsh Agrawal">
     </div>
 
     <h1>Adarsh Agrawal</h1>
@@ -203,14 +183,15 @@
       <div class="btn-container">
         <a href="https://wa.me/917327809032?text=Hello%20Adarsh%20Agrawal" class="btn btn-whatsapp">WhatsApp</a>
         <a href="https://instagram.com/iamadarsh_agrawal" class="btn btn-instagram">Instagram</a>
-        <a href="https://wa.me/?text=Check%20out%20Adarsh%20Agrawal’s%20profile:%20https://YOUR-GITHUB-USERNAME.github.io/adarshagrawaldetails" class="btn btn-share">Share My Card</a>
+        <a href="https://wa.me/?text=Check%20out%20Adarsh%20Agrawal’s%20profile:%20YOUR_GITHUB_PAGES_LINK" class="btn btn-share">Share My Card</a>
       </div>
     </div>
 
     <div class="section">
       <h2>About Me</h2>
       <p>
-        CA Finalist passionate about taxation, auditing, and helping businesses stay compliant while growing confidently.
+        I am a <strong>CA Finalist</strong> currently training with <strong>Vaada & Associates</strong>, where I focus on taxation, auditing, and GST compliance.  
+        My professional goal is to provide accurate, ethical, and practical financial solutions that help clients maintain strong regulatory compliance and business growth.
       </p>
       <p><strong>Birthday:</strong> 12th June 2000</p>
     </div>
@@ -228,7 +209,7 @@
     <div class="qr-section">
       <h2>Scan for UPI Payment</h2>
       <img src="PHONEPAYQR.JPG" alt="PhonePe UPI QR Code">
-      <p style="color:#cfcfcf; font-size:0.9rem;">Scan using any UPI app (PhonePe, GPay, Paytm)</p>
+      <p style="color:#555; font-size:0.9rem;">Scan using any UPI app (PhonePe, GPay, Paytm)</p>
     </div>
 
     <footer>
