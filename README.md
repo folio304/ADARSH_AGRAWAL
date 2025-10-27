@@ -185,7 +185,7 @@
   <div class="container">
 
     <div class="profile">
-      <img src="profile.jpg" alt="Adarsh Agrawal">
+     <img src="profile.jpg" alt="Profile Photo" class="profile-photo">
     </div>
 
     <h1>Adarsh Agrawal</h1>
