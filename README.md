@@ -193,19 +193,19 @@
     <div class="section">
       <h2>About Me</h2>
       <p>
-        I am a <strong>CA Finalist</strong> undergoing practical training at <strong>Vaada & Associates</strong>, where I specialize in taxation, auditing, and GST compliance.  
+        I am a <strong>CA Finalist</strong> working at <strong>Vaada & Associates</strong>, where I specialize in taxation, auditing, and GST compliance.  
         I aim to assist individuals and businesses in achieving financial transparency, regulatory accuracy, and sustainable growth through professional and ethical advisory.
       </p>
-      <p><strong>Birthday:</strong> 12th June 2000</p>
+      <p><strong>Birthdate:</strong> 12th June 2000</p>
     </div>
 
     <div class="section">
       <h2>Professional Services</h2>
       <div class="icon-services">
-        <div class="icon-box">📄 ITR Filing</div>
-        <div class="icon-box">💰 GST Returns</div>
-        <div class="icon-box">📊 Audit</div>
-        <div class="icon-box">🏢 Consultancy</div>
+        <div class="icon-box">📄   ITR Filing</div>
+        <div class="icon-box">💰   GST Returns</div>
+        <div class="icon-box">📊   Audit</div>
+        <div class="icon-box">🏢   Consultancy</div>
       </div>
     </div>
 
