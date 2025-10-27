@@ -1,16 +1,19 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Adarsh Agrawal – CA Finalist</title>
 
-  <link rel="icon" href="PROFILE.JPG" type="image/jpeg">
+  <!-- Meta Info -->
+  <link rel="icon" href="profile.jpg" type="image/jpeg">
   <meta name="description" content="Adarsh Agrawal – CA Finalist at Vaada & Associates, specializing in taxation, GST, and auditing.">
   <meta property="og:title" content="Adarsh Agrawal – CA Finalist">
   <meta property="og:description" content="CA Finalist with a strong interest in taxation, auditing, and business advisory.">
   <meta property="og:image" content="https://YOUR_GITHUB_USERNAME.github.io/YOUR_REPO_NAME/profile.jpg">
   <meta name="theme-color" content="#b8860b">
 
+  <!-- Google Font -->
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
 
   <style>
@@ -50,6 +53,7 @@
       border: 3px solid #d4af37;
       box-shadow: 0 0 20px rgba(212, 175, 55, 0.4);
       background-color: #fff;
+      background: #fff url('profile.jpg') center/cover no-repeat;
     }
 
     h1 {
@@ -189,19 +193,19 @@
     <div class="section">
       <h2>About Me</h2>
       <p>
-        I am a <strong>CA Finalist</strong> currently with <strong>Vaada & Associates</strong>, where I focus on taxation, auditing, and GST compliance.  
-        My professional goal is to provide accurate, ethical, and practical financial solutions that help clients maintain strong regulatory compliance and business growth.
+        I am a <strong>CA Finalist</strong> undergoing practical training at <strong>Vaada & Associates</strong>, where I specialize in taxation, auditing, and GST compliance.  
+        I aim to assist individuals and businesses in achieving financial transparency, regulatory accuracy, and sustainable growth through professional and ethical advisory.
       </p>
-      <p><strong>Birthdate:</strong> 12th June 2000</p>
+      <p><strong>Birthday:</strong> 12th June 2000</p>
     </div>
 
     <div class="section">
       <h2>Professional Services</h2>
       <div class="icon-services">
-        <div class="icon-box">📄  ITR Filing</div>
-        <div class="icon-box">💰  GST Returns</div>
-        <div class="icon-box">📊  Audit</div>
-        <div class="icon-box">🏢  Consultancy</div>
+        <div class="icon-box">📄 ITR Filing</div>
+        <div class="icon-box">💰 GST Returns</div>
+        <div class="icon-box">📊 Audit</div>
+        <div class="icon-box">🏢 Consultancy</div>
       </div>
     </div>
 
